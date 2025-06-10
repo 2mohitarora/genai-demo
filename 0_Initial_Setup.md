@@ -124,10 +124,11 @@
     - Create npm install command for missing packages
     4. It will find missing packages and create command "npm install dotenv drizzle-kit drizzle-orm postgres" to install missing packages
     5. Once you click "Run command", Cursor/Windsurf will install the missing packages.
-    6. In scripts section of package.json, add following 2 lines
+    6. In scripts section of package.json, add following 3 lines
     
     "db:push": "npx drizzle-kit push",
-    "db:studio": "npx drizzle-kit studio"
+    "db:studio": "npx drizzle-kit studio",
+    "db:seed": "npx drizzle-kit seed"
     ```
 7. Let's make sure everything compiles and project still runs after drizzle setup
     ```
