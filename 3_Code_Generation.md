@@ -1,6 +1,10 @@
 # Prompt to generate code 
 
-1. Add cursor or windsurf rules - Create a file `.cursor/rules/general.mdc` with following contents. Make sure `Rule Type` is `Always`
+1. Add cursor or windsurf rules - 
+    
+    Cursor : Create a file `.cursor/rules/general.mdc` with following contents. Make sure `Rule Type` is `Always`
+
+    Windsurf : Create a file `.windsurf/rules/general.md` with following contents. Make sure `Activation Mode` is `Always On`
 
     ```
     - We are building a slack clone
@@ -41,7 +45,7 @@
     - Leverage React Server Components (RSC) for improved performance.
     - Correctly determine when to use server vs. client components in Next.js.
     ```
-2. Generate code. Please note that journey differs from this point onwards depending on the code cursor is generating. Refer to steps mentioned in `project-steps.md` & go step by step. Keep reviewing the code generated. Keep commiting at regular intervals.
+2. Start Generate code in cursor/windsurf. Please note that journey differs from this point onwards depending on the code cursor/windsurf are generating. Refer to steps mentioned in `project-steps.md` & go step by step. Keep reviewing the code generated. Keep commiting at regular intervals.
     ```
     1. Work on steps 1-2 and do the database setup
     2. Complete steps 3 for core UI components
@@ -51,4 +55,4 @@
     6. Complete step 9 to final UI
     .....
     ```
-3. In case of errors, keep using Cursor creatively to get error fixed. Good luck.
+3. In case of errors, keep using Cursor/Windsurf creatively to get error fixed. Good luck.
