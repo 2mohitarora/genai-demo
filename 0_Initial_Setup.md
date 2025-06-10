@@ -49,7 +49,7 @@
     ```
 3. Once the organization is created, you can create a project
     ```
-    Project Name: Slack Clone
+    Project Name: Slack
     Database Password: Use Strong password (copy it and save it somewhere so that we can use it later)
     Region: East US (North Virginia)
     ```
@@ -74,9 +74,8 @@
 
 # Setup Drizzle ORM
 
-1. Create `actions` folder under `project root`
-2. Create `db` folder under `project root`
-3. Inside db folder create `db.ts` file with following contents
+1. Create `db` folder under `project root`
+2. Inside db folder create `db.ts` file with following contents
 
     ```
     import { config } from "dotenv"
@@ -91,7 +90,7 @@
 
     export const db = drizzle(client, { schema })
     ```
-4. Create a file `drizzle.config.ts` under `project root` with following contents
+3. Create a file `drizzle.config.ts` under `project root` with following contents
     ```
     import { config } from "dotenv"
     import { defineConfig } from "drizzle-kit"
@@ -107,7 +106,7 @@
         }
     })
     ```
-5. Create a file `.env.local` under `project root` with following contents
+4. Create a file `.env.local` under `project root` with following contents
     ```
     DATABASE_URL= (COPY CONNECTION STRING FROM SUPBASE & REPLACE PASSWORD IN CONNECTION STRING)
     ```
@@ -119,7 +118,7 @@
     4. Copy the connection string
     5. Replace [YOUR-PASSWORD] in Connection String with password we saved earlier while creating db on supabase
     ```
-6. Let's try First cursor/windsurf magic by installing missing drizzle packages used in `db.ts` and `drizzle.config.ts` we just created
+5. Let's try First cursor/windsurf magic by installing missing drizzle packages used in `db.ts` and `drizzle.config.ts` we just created
     ```
     1. Make sure "db.ts" and "drizzle.config.ts" are open in Cursor/Windsurf
     2. Hit / in Cursor Agent window and select "Add Open Files to Context" (or similar way in Windsurf)
@@ -133,7 +132,7 @@
     "db:studio": "npx drizzle-kit studio",
     "db:seed": "npx drizzle-kit seed"
     ```
-7. Let's make sure everything compiles and project still runs after drizzle setup
+6. Let's make sure everything compiles and project still runs after drizzle setup
     ```
     Run `npm run dev` and hit `http://localhost:3000`
     Add, Commit and push everything to Github
