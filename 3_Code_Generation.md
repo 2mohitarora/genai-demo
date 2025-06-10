@@ -48,8 +48,8 @@
 2. Start Generate code in cursor/windsurf. Please note that journey differs from this point onwards depending on the code cursor/windsurf are generating. Refer to steps mentioned in `project-steps.md` & go step by step. Keep reviewing the code generated. Keep commiting at regular intervals.
     ```
     1. Work on steps 1-2 and do the database setup
-    2. Complete steps 3
-    3. Complete step 4 and 5
+    2. Complete steps 3 and 4
+    3. Complete step 5
     4. Complete steps 6
     5. Complete step 7 and 8
     6. Complete step 9
