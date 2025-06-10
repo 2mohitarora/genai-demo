@@ -9,11 +9,11 @@
   - **User Instructions**: Run `npm run db:push` after defining schemas.
 
 - [ ] Step 2: Seed Initial Channels, Users, and Messages
-  - **Task**: Create initial seed data including default channels (`general`, `random`, `help`), anonymous users (`anon1`, `anon2`, etc.), and initial messages for each channel.
+  - **Task**: Create initial seed data using Drizzle ORM including default channels (`general`, `random`, `help`), anonymous users (`anon1`, `anon2`, etc.), and initial messages for each channel.
   - **Files**:
-    - `db/seed.ts`: Script populating channels, users, and a few messages per channel.
+    - `db/seed.ts`: Script populating channels, users, and a few messages per channel using Drizzle ORM.
   - **Step Dependencies**: Step 1
-  - **User Instructions**: Execute seed script with `node db/seed.ts`.
+  - **User Instructions**: Execute seed script with `npm run db:push`.
 
 ## Shared UI Components
 - [ ] Step 3: Create Core UI Components

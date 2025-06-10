@@ -38,6 +38,9 @@ Small teams and casual groups (under 50 users) who want friction-free, anonymous
 - [ ] PostgreSQL database (via Supabase)
 - [ ] Drizzle ORM for database operations
 
+### Seed Data
+- [ ] Seed sample data using Drizzle ORM
+
 ## Design Requests
 - [ ] Clean, minimal interface optimized for casual conversation
 - [ ] Mobile-responsive web design (no native mobile apps)
