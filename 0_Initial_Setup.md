@@ -66,6 +66,9 @@
     .env.local
     .gitignore
     .repo_ignore
+    /.cursor/
+    project-steps.md
+    /.windsurf/
     ```
 5. Add, Commit and Push changed to Github
 
