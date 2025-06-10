@@ -7,7 +7,7 @@ We will execute these steps in Claude/ChatGPT
 3. Paste copied content between tags `<project_request>` and `</project_request>`
 4. Copy the modified `prompts/input/Planner.md` 
 5. Open Claude/ChatGPT
-6. Open Repo Prompt and copy the existing content of project that we created during initial setup and paste it in claude as well. `For reference i had 13 files copied via Repo Prompt`
+6. Open Repo Prompt and copy the existing content of project that we created during initial setup and paste it in claude/chatgpt as well. `For reference i had 13 files copied via Repo Prompt` (if required copy the content in a .txt file and upload as attachment)
 7. Run the following prompt
     ```
     Create the plan as mentioned. Don't include already done steps. Start from what we have. Steps must go in order that we have to complete them in. Already done steps and its code is attached with prompt. Return as a single markdown block like the original prompt asked in the todo format.
