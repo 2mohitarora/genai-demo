@@ -1,6 +1,6 @@
 # Initial Setup
 
-1. Install cursor (Make sure its added to PATH so that you can access it from command line)
+1. Install Cursor or Windsurf (Make sure its added to PATH so that you can access it from command line)
 2. Install node (if not already)
 3. Install git and set it up (if not already)
 4. Install RepoPrompt from https://repoprompt.com/ 
@@ -20,13 +20,9 @@
     Use --force (if you get prompted for React 19)
     ```
 
-4. Navigate to slack-clone directory and open it in cursor
+4. Navigate to slack-clone directory and open it in cursor/windsurf
 
-    ```
-    cd slack-clone
-    cursor .
-    ```
-5. Open Terminal within cursor and run following command
+5. Open Terminal within cursor/windsurf and run following command
 
     ```
     npm install 
@@ -120,14 +116,14 @@
     4. Copy the connection string
     5. Replace [YOUR-PASSWORD] in Connection String with password we saved earlier while creating db on supabase
     ```
-6. Let's try First cursor magic by installing missing drizzle packages used in `db.ts` and `drizzle.config.ts` we just created
+6. Let's try First cursor/windsurf magic by installing missing drizzle packages used in `db.ts` and `drizzle.config.ts` we just created
     ```
-    1. Make sure "db.ts" and "drizzle.config.ts" are open in Cursor
-    2. Hit / in Cursor Agent window and select "Add Open Files to Context"
+    1. Make sure "db.ts" and "drizzle.config.ts" are open in Cursor/Windsurf
+    2. Hit / in Cursor Agent window and select "Add Open Files to Context" (or similar way in Windsurf)
     3. Once db.ts and "drizzle.config.ts" are added to context, enter following text in agent window and hit enter
     - Create npm install command for missing packages
     4. It will find missing packages and create command "npm install dotenv drizzle-kit drizzle-orm postgres" to install missing packages
-    5. Once you click "Run command", Cursor will install the missing packages.
+    5. Once you click "Run command", Cursor/Windsurf will install the missing packages.
     6. In scripts section of package.json, add following 2 lines
     
     "db:push": "npx drizzle-kit push",

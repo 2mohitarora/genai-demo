@@ -1,8 +1,6 @@
 # Prompt to generate code 
 
-We will execute these steps in Cursor
-
-1. Add cursor rules - Create a file `.cursor/rules/general.mdc` with following contents. Make sure `Rule Type` is `Always`
+1. Add cursor or windsurf rules - Create a file `.cursor/rules/general.mdc` with following contents. Make sure `Rule Type` is `Always`
 
     ```
     - We are building a slack clone
